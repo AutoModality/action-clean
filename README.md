@@ -25,7 +25,7 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - uses: AutoModality/action-clean@master
+      - uses: AutoModality/action-clean@v1
       - uses: actions/checkout@v2
       - run: echo Hello World
 ```
