@@ -2,5 +2,5 @@
 
 set -e # fail on error
 
-rm -rf *
-
+# Credits https://unix.stackexchange.com/a/77313
+rm -rf ..?* .[!.]* *
